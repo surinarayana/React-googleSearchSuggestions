@@ -1,0 +1,72 @@
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 125px;
+}
+
+@media screen and (min-width: 768px) {
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 250px;
+  }
+}
+
+.google {
+  width: 150px;
+  height: 55px;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .google {
+    width: 432px;
+    height: 140px;
+  }
+}
+
+.card-container {
+  width: 300px;
+  border-radius: 12px;
+  margin-top: 24px;
+  box-shadow: 0px 0px 10px 0px #bfbfbf;
+}
+
+@media screen and (min-width: 768px) {
+  .card-container {
+    width: 600px;
+    border-radius: 20px;
+    margin-top: 48px;
+  }
+}
+
+.input-container {
+  display: flex;
+  margin: 2px;
+}
+.search-icon {
+  width: 25px;
+  margin-right: 5px;
+}
+.input {
+  width: 350px;
+  border-width: 0px;
+  color: #64748b;
+}
+
+.suggestions-list {
+  padding-left: 12px;
+  padding-right: 16px;
+  padding-bottom: 12px;
+  margin: 0;
+}
